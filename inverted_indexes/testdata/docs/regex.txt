@@ -1,0 +1,19 @@
+It was a long time coming, but the java.util.regex package was a significant and hugely useful addition to Java 1.4. 
+For Web developers constantly dealing with text-based content, this represents a major productivity and efficiency 
+boost. Java regular expressions can be used in client-side Java applets and also in server-side J2EE and JSP code.
+
+Using regular expressions and the regex package, you can easily describe, locate and manipulate complex patterns of 
+text. Trust me, this is definitely a "How did I ever get by without it?" kind of thing.
+
+In this article I'll explain the general idea behind regular expressions, explain how the java.util.regex package 
+works, then wrap up with a quick look at how the String class has been retrofitted to take advantage of regular 
+expressions.
+
+Before we get into the details of the Java regex API itself, let's have a quick look at what a regular expression, 
+or, to those in the trade, a 'regex', actually is. If you already know what a regular expression is, feel free to 
+skim over this next section.
+
+What is a Regular Expression?
+A regular expression is a series of metacharacters and literals that allow you to describe substrings in text using 
+a pattern. These metacharacters actually form a miniature language in their own right. In fact, in many ways, you 
+can think of regular expressions as a kind of SQL query for free flowing text. 
